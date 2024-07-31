@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="img-gallery">
+        <class>
+            <id=IMAGE GALLERY>
+                </id>
+        </class>
+        <button class="nav-button" id="prev-button">&lt;</button>
+        <div class="image-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyf3_FDrquJZPkgckqJG9rfIQltb7qSQHpKzoHHx61q0HYRNrPhO5kHlNMVNkdL7E76Uc&usqp=CAU"
+                alt=" ">
+            <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg" alt=" ">
+            <img src="https://static.vecteezy.com/system/resources/previews/028/705/170/non_2x/dawns-embrace-silhouetted-tree-stands-against-backdrop-of-suns-radiant-embrace-ai-generated-photo.jpg"
+                alt="">
+        </div>
+        <button class="nav-button" id="next-button">&gt;</button>
+
+</body>
+
+</html>
+
+<style>
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    div img {
+        width: 400px;
+        height: 300px;
+        border: 2px solid #ff3d0036;
+        border-radius: 13px;
+        box-shadow: 4px 7px 7px 0px #00000042;
+        cursor: pointer;
+        margin: 10px;
+        transition: 400ms;
+    }
+
+    div img:hover {
+        filter: grayscale(1);
+        transform: scale(1.03);
+    }
+</style>
